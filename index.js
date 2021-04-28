@@ -27,7 +27,7 @@ if (age <= 18) {
 		"Your Travel Ticket don't have any discount" +
 			newLine +
 			"Your total is: " +
-			"$" +
+			"£" +
 			milesKM * priceTravel
 	);
 }
