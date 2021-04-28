@@ -4,11 +4,11 @@ var senior = (40 / 100) * 0.21;
 var newLine = "\r\n\n";
 
 var age = Number(prompt("what is your age?"));
-var milesKM = Number(prompt("How far are you travelling?"));
+var milesKM = Number(prompt("How far are you travelling?")).toFixed(2);
 
 if (age <= 18) {
 	alert(
-		"You Travel Ticket has discount" +
+		"You Travel Ticket has discount! " +
 			newLine +
 			"Your total is: " +
 			"£" +
@@ -16,7 +16,7 @@ if (age <= 18) {
 	);
 } else if (age >= 65) {
 	alert(
-		"You Travel Ticket has discount" +
+		"You Travel Ticket has discount! " +
 			newLine +
 			"Your total is: " +
 			"£" +
@@ -24,7 +24,7 @@ if (age <= 18) {
 	);
 } else {
 	alert(
-		"Your Travel Ticket don't have any discount" +
+		"Your Travel Ticket don't have any discount !" +
 			newLine +
 			"Your total is: " +
 			"£" +
